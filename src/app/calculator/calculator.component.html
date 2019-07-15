@@ -1,0 +1,16 @@
+<h1>Calculator created with Angular</h1>
+<div class="card">
+  <div class="card-header">
+    <div class="form-group">
+      <input [(ngModel)]="firstNumber" type="number" class="form-control">
+      <input [(ngModel)]="secondNumber"  type="number" class="form-control">
+    </div>
+
+    <div class="">
+      <button class="btn btn-success" (click)="add()">sum</button>
+    </div> 
+<div class="card-footer">
+  <h4>The result of {{firstNumber}} and {{secondNumber}} equals to {{result}}</h4>
+</div>
+  </div>
+</div>
